@@ -1,0 +1,939 @@
+{
+  "pricing": {
+    "monthlyVeg": 3600,
+    "monthlyNonVeg": 4500,
+    "rebateDailyRate": 85,
+    "minRebateDays": 3,
+    "perMeal": {
+      "breakfast": 40,
+      "lunch": 75,
+      "snacks": 30,
+      "dinner": 75
+    },
+    "latePaymentFee": 100,
+    "academicYear": "2026-2027",
+    "caterer": "Annapurna Caterers & Hospitality Ltd. (IIIT-BBSR Campus)"
+  },
+  "members": [
+    {
+      "id": "STU-001",
+      "name": "Aarav Mohapatra",
+      "rollNo": "B122001",
+      "email": "b122001@iiit-bh.ac.in",
+      "phone": "+91 98765 43210",
+      "hostel": "Brahmaputra (BH-1)",
+      "roomNo": "214",
+      "branch": "Computer Science & Engineering",
+      "batch": "2022-2026",
+      "planType": "non-veg",
+      "status": "rebate",
+      "joinDate": "2024-07-15",
+      "balance": 0,
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 94370 12345 (Father)"
+    },
+    {
+      "id": "STU-002",
+      "name": "Sneha Tripathy",
+      "rollNo": "B122045",
+      "email": "b122045@iiit-bh.ac.in",
+      "phone": "+91 98612 34567",
+      "hostel": "Dhauli (GH-1)",
+      "roomNo": "108",
+      "branch": "Information Technology",
+      "batch": "2022-2026",
+      "planType": "veg",
+      "status": "active",
+      "joinDate": "2024-07-15",
+      "balance": 0,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 98610 99887 (Mother)"
+    },
+    {
+      "id": "STU-003",
+      "name": "Rohan Kumar Jena",
+      "rollNo": "B123012",
+      "email": "b123012@iiit-bh.ac.in",
+      "phone": "+91 91234 56789",
+      "hostel": "Mahanadi (BH-2)",
+      "roomNo": "305",
+      "branch": "Electronics & Telecommunication",
+      "batch": "2023-2027",
+      "planType": "non-veg",
+      "status": "rebate",
+      "joinDate": "2024-07-20",
+      "balance": -340,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 94372 33445 (Father)"
+    },
+    {
+      "id": "STU-004",
+      "name": "Ananya Patnaik",
+      "rollNo": "B123078",
+      "email": "b123078@iiit-bh.ac.in",
+      "phone": "+91 99370 45678",
+      "hostel": "Rushikulya (GH-2)",
+      "roomNo": "219",
+      "branch": "Computer Engineering",
+      "batch": "2023-2027",
+      "planType": "veg",
+      "status": "active",
+      "joinDate": "2024-07-20",
+      "balance": 0,
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 99371 88776 (Mother)"
+    },
+    {
+      "id": "STU-005",
+      "name": "Debashis Sahoo",
+      "rollNo": "B121019",
+      "email": "b121019@iiit-bh.ac.in",
+      "phone": "+91 94371 82930",
+      "hostel": "Subarnarekha (BH-3)",
+      "roomNo": "412",
+      "branch": "Electrical & Electronics",
+      "batch": "2021-2025",
+      "planType": "non-veg",
+      "status": "active",
+      "joinDate": "2024-07-10",
+      "balance": 100,
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 94371 11223 (Father)"
+    },
+    {
+      "id": "STU-006",
+      "name": "Pooja Panigrahi",
+      "rollNo": "B124033",
+      "email": "b124033@iiit-bh.ac.in",
+      "phone": "+91 88950 12345",
+      "hostel": "Dhauli (GH-1)",
+      "roomNo": "302",
+      "branch": "Computer Science & Engineering",
+      "batch": "2024-2028",
+      "planType": "non-veg",
+      "status": "active",
+      "joinDate": "2024-08-01",
+      "balance": 0,
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 88951 55667 (Father)"
+    },
+    {
+      "id": "STU-007",
+      "name": "Bikram Keshari Ray",
+      "rollNo": "B122089",
+      "email": "b122089@iiit-bh.ac.in",
+      "phone": "+91 97761 23456",
+      "hostel": "Vaitarni (BH-4)",
+      "roomNo": "115",
+      "branch": "Information Technology",
+      "batch": "2022-2026",
+      "planType": "veg",
+      "status": "inactive",
+      "joinDate": "2024-07-15",
+      "balance": 0,
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 97762 99001 (Uncle)"
+    },
+    {
+      "id": "STU-008",
+      "name": "Soumya Ranjan Das",
+      "rollNo": "B122060",
+      "email": "b122060@iiit-bh.ac.in",
+      "phone": "+91 93370 65432",
+      "hostel": "Brahmaputra (BH-1)",
+      "roomNo": "102",
+      "branch": "Computer Science & Engineering",
+      "batch": "2022-2026",
+      "planType": "non-veg",
+      "status": "active",
+      "joinDate": "2024-07-15",
+      "balance": 0,
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "emergencyContact": "+91 93371 44556 (Mother)"
+    }
+  ],
+  "menu": {
+    "Monday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "07:30 AM - 09:30 AM",
+        "items": [
+          "Poha with Sev & Fried Peanuts",
+          "Boiled Egg (1pc) / Banana",
+          "Mint Chutney",
+          "Bread, Butter & Jam",
+          "Tea / Fresh Milk"
+        ],
+        "type": "both",
+        "isSpecial": false,
+        "calories": 420
+      },
+      "lunch": {
+        "name": "Lunch",
+        "time": "12:30 PM - 02:30 PM",
+        "items": [
+          "Steamed Basmati Rice",
+          "Tawa Phulka Roti",
+          "Odia Dalma (Toor Dal + Raw Banana + Pumpkin)",
+          "Aloo Gobi Matar Masala",
+          "Curd & Boondi",
+          "Roasted Papad"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 680
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Crispy Cuttack Aloo Chop (2 pcs)",
+          "Muri Mixture (Puffed Rice)",
+          "Green Chilli & Mustard Sauce",
+          "Adrak Chai / Coffee"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 290
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Tandoori Roti",
+          "Jeera Rice",
+          "Dal Makhani",
+          "Egg Curry (2 eggs) OR Shahi Paneer (Veg)",
+          "Fresh Green Onion Salad",
+          "Gulab Jamun (1 pc)"
+        ],
+        "type": "both",
+        "isSpecial": false,
+        "calories": 720
+      }
+    },
+    "Tuesday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "07:30 AM - 09:30 AM",
+        "items": [
+          "Crispy Medu Vada (3 pcs) & Steamed Idli",
+          "South Indian Sambar",
+          "Fresh Coconut Chutney",
+          "Bread & Jam",
+          "Filter Coffee / Milk"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 440
+      },
+      "lunch": {
+        "name": "Lunch",
+        "time": "12:30 PM - 02:30 PM",
+        "items": [
+          "Rice",
+          "Ghee Chapati",
+          "Moong Dal Fry",
+          "Bhindi Do Pyaza",
+          "Dahi Baigana (Eggplant in curd tempering)",
+          "Pickle & Papad"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 640
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Vegetable Chowmein (Desi Hakka Style)",
+          "Tomato & Chilli Sauce",
+          "Masala Chai / Lemon Tea"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 310
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Butter Naan / Roti",
+          "Veg Pulao",
+          "Yellow Dal Tadka",
+          "Kadai Paneer OR Aloo Dum Kashmere",
+          "Kachumber Salad",
+          "Rice Kheer with Cashews"
+        ],
+        "type": "veg",
+        "isSpecial": true,
+        "calories": 710
+      }
+    },
+    "Wednesday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "07:30 AM - 09:30 AM",
+        "items": [
+          "Stuffed Aloo Paratha (2 pcs) with Amul Butter",
+          "Curd & Mixed Pickle",
+          "Boiled Egg / Fresh Apple",
+          "Bread-Butter-Jam",
+          "Cardamom Tea / Milk"
+        ],
+        "type": "both",
+        "isSpecial": false,
+        "calories": 510
+      },
+      "lunch": {
+        "name": "Lunch",
+        "time": "12:30 PM - 02:30 PM",
+        "items": [
+          "Fragrant Steamed Rice",
+          "Soft Chapatis",
+          "Chana Dal Tadka",
+          "Fish Curry (Rohu in Mustard Besara) OR Paneer Jalfrezi",
+          "Green Salad & Lemon",
+          "Fried Papad"
+        ],
+        "type": "both",
+        "isSpecial": true,
+        "calories": 750
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Bhubaneswar Special Singada (Samosa)",
+          "Khatta-Meetha Tamarind Chutney",
+          "Chai"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 330
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Roti / Puri",
+          "Steamed Rice",
+          "Rajma Masala (Punjabi Style)",
+          "Aloo Shimla Mirch",
+          "Cucumber Raita",
+          "Cut Watermelon / Banana"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 660
+      }
+    },
+    "Thursday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "07:30 AM - 09:30 AM",
+        "items": [
+          "Rava Upma with Cashews & Vegetables",
+          "Spicy Matar Ghugni",
+          "Boiled Sweet Corn",
+          "Bread-Butter-Jam",
+          "Ginger Tea / Horlicks"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 390
+      },
+      "lunch": {
+        "name": "Lunch",
+        "time": "12:30 PM - 02:30 PM",
+        "items": [
+          "Steamed Rice",
+          "Phulka Roti",
+          "Dal Pancharatan",
+          "Lau Badi Tarkari (Bottle gourd with sun-dried lentil dumplings)",
+          "Dahi Bundi Raita",
+          "Papad"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 610
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Bread Pakora with Potato & Paneer stuffing",
+          "Tomato Ketchup & Pudina Chutney",
+          "Hot Coffee / Tea"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 340
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Roti / Paratha",
+          "Matar Pulao",
+          "Dal Kolhapuri",
+          "Mushroom Matar Masala OR Malai Kofta",
+          "Onion Salad & Green Chilli",
+          "Rasgulla (2 pcs)"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 730
+      }
+    },
+    "Friday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "07:30 AM - 09:30 AM",
+        "items": [
+          "Uttapam (Onion & Tomato)",
+          "Coconut Chutney & Tomato Chutney",
+          "Boiled Egg (1pc) / Ripe Banana",
+          "Bread & Jam",
+          "Tea / Milk"
+        ],
+        "type": "both",
+        "isSpecial": false,
+        "calories": 430
+      },
+      "lunch": {
+        "name": "Lunch",
+        "time": "12:30 PM - 02:30 PM",
+        "items": [
+          "Steamed Rice",
+          "Tawa Roti",
+          "Masoor Dal Fry",
+          "Chicken Curry (Odisha Desi Style) OR Matar Paneer (Veg)",
+          "Onion Lemon Salad",
+          "Crispy Fryums"
+        ],
+        "type": "both",
+        "isSpecial": true,
+        "calories": 780
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Chaulabara (Crispy Rice-Urad Fritters) with Spiced Curd Chutney",
+          "Tea / Coffee"
+        ],
+        "type": "veg",
+        "isSpecial": true,
+        "calories": 280
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Laccha Paratha",
+          "Jeera Rice",
+          "Dal Tadka",
+          "Egg Bhurji OR Mix Veg Korma",
+          "Beetroot Carrot Salad",
+          "Ice Cream Cup (Vanilla/Chocolate)"
+        ],
+        "type": "both",
+        "isSpecial": false,
+        "calories": 710
+      }
+    },
+    "Saturday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "07:30 AM - 09:30 AM",
+        "items": [
+          "Puri (4 pcs) with Aloo Dum (Odia Street Style)",
+          "Suji Halwa",
+          "Bread-Butter-Jam",
+          "Masala Chai / Warm Milk"
+        ],
+        "type": "veg",
+        "isSpecial": true,
+        "calories": 540
+      },
+      "lunch": {
+        "name": "Lunch",
+        "time": "12:30 PM - 02:30 PM",
+        "items": [
+          "Steamed Rice",
+          "Phulka Roti",
+          "Arhar Dal with Lemon",
+          "Aloo Potol Rasa (Pointed Gourd Curry)",
+          "Mango Sweet Pickle",
+          "Roasted Papad"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 620
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Vegetable Cutlet with Corn & Peas",
+          "Green Mint Dip",
+          "Tea / Lemon Water"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 300
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Tawa Roti",
+          "Fried Rice",
+          "Manchurian Gravy (Veg)",
+          "Dal Fry",
+          "Vinegar Onions",
+          "Moong Dal Halwa"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 690
+      }
+    },
+    "Sunday": {
+      "breakfast": {
+        "name": "Breakfast",
+        "time": "08:00 AM - 10:00 AM",
+        "items": [
+          "Masala Dosa with Potato Masala",
+          "Chana Ghugni & Sambar",
+          "Coconut Chutney",
+          "Boiled Egg / Fresh Fruit",
+          "Special Filter Coffee / Tea"
+        ],
+        "type": "both",
+        "isSpecial": true,
+        "calories": 490
+      },
+      "lunch": {
+        "name": "Lunch (Grand Weekend Feast)",
+        "time": "12:30 PM - 02:45 PM",
+        "items": [
+          "Hyderabadi Chicken Dum Biryani OR Shahi Veg Dum Biryani",
+          "Mirchi Ka Salan",
+          "Mix Veg Raita",
+          "Egg Curry",
+          "Chhena Poda (Authentic Baked Odia Cottage Cheese Dessert)"
+        ],
+        "type": "both",
+        "isSpecial": true,
+        "calories": 890
+      },
+      "snacks": {
+        "name": "Snacks",
+        "time": "05:00 PM - 06:15 PM",
+        "items": [
+          "Sweet Corn Chaat with Butter & Spices",
+          "Cookies & Biscuits",
+          "Tea / Cold Coffee"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 260
+      },
+      "dinner": {
+        "name": "Dinner",
+        "time": "07:45 PM - 09:45 PM",
+        "items": [
+          "Soft Rotis",
+          "Jeera Basmati Rice",
+          "Dal Makhani Slow-cooked",
+          "Paneer Butter Masala",
+          "Kheer / Sweet Curd (Misti Dahi)",
+          "Roasted Papad"
+        ],
+        "type": "veg",
+        "isSpecial": false,
+        "calories": 670
+      }
+    }
+  },
+  "rebates": [
+    {
+      "id": "REB-2026-105",
+      "studentId": "STU-001",
+      "studentName": "Aarav Mohapatra",
+      "rollNo": "B122001",
+      "hostel": "Brahmaputra (BH-1)",
+      "roomNo": "214",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-23",
+      "durationDays": 4,
+      "dailyRate": 85,
+      "amount": 340,
+      "reasonCategory": "Academic Leave",
+      "description": "SIH 2026 Hackathon Finals",
+      "status": "approved",
+      "appliedDate": "2026-11-10",
+      "adminComment": "Approved by Chief Warden",
+      "decisionDate": "2026-11-10"
+    },
+    {
+      "id": "REB-2026-101",
+      "studentId": "STU-003",
+      "studentName": "Rohan Kumar Jena",
+      "rollNo": "B123012",
+      "hostel": "Mahanadi (BH-2)",
+      "roomNo": "305",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-12",
+      "durationDays": 4,
+      "dailyRate": 85,
+      "amount": 340,
+      "reasonCategory": "Home Visit",
+      "description": "Visiting hometown Cuttack for sister's wedding ceremonies with approved parental consent.",
+      "status": "approved",
+      "appliedDate": "2026-11-05",
+      "adminComment": "Approved as per academic leave slip #AC-992.",
+      "decisionDate": "2026-11-06"
+    },
+    {
+      "id": "REB-2026-102",
+      "studentId": "STU-001",
+      "studentName": "Aarav Mohapatra",
+      "rollNo": "B122001",
+      "hostel": "Brahmaputra (BH-1)",
+      "roomNo": "214",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-20",
+      "durationDays": 5,
+      "dailyRate": 85,
+      "amount": 425,
+      "reasonCategory": "Academic Leave",
+      "description": "Attending Smart India Hackathon Grand Finale at IIT Kharagpur representing IIIT-BBSR.",
+      "status": "pending",
+      "appliedDate": "2026-11-09",
+      "adminComment": "",
+      "decisionDate": null
+    },
+    {
+      "id": "REB-2026-103",
+      "studentId": "STU-002",
+      "studentName": "Sneha Tripathy",
+      "rollNo": "B122045",
+      "hostel": "Dhauli (GH-1)",
+      "roomNo": "108",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-27",
+      "durationDays": 5,
+      "dailyRate": 85,
+      "amount": 425,
+      "reasonCategory": "Internship",
+      "description": "Onsite research presentation at TCS Innovation Labs, Infocity.",
+      "status": "approved",
+      "appliedDate": "2026-10-18",
+      "adminComment": "Verified with Dean Academics office.",
+      "decisionDate": "2026-10-19"
+    },
+    {
+      "id": "REB-2026-104",
+      "studentId": "STU-005",
+      "studentName": "Debashis Sahoo",
+      "rollNo": "B121019",
+      "hostel": "Subarnarekha (BH-3)",
+      "roomNo": "412",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-02",
+      "durationDays": 2,
+      "dailyRate": 85,
+      "amount": 170,
+      "reasonCategory": "Personal",
+      "description": "Weekend visit to Puri.",
+      "status": "rejected",
+      "appliedDate": "2026-10-31",
+      "adminComment": "Rejected: Minimum 3 continuous days required as per Mess Bylaw Sec 4.2.",
+      "decisionDate": "2026-10-31"
+    }
+  ],
+  "billing": [
+    {
+      "id": "INV-2026-11-001",
+      "studentId": "STU-001",
+      "studentName": "Aarav Mohapatra",
+      "rollNo": "B122001",
+      "hostel": "Brahmaputra (BH-1)",
+      "roomNo": "214",
+      "month": "November",
+      "year": 2026,
+      "planType": "non-veg",
+      "baseAmount": 4500,
+      "guestTokens": 150,
+      "rebateDeduction": 0,
+      "fine": 0,
+      "netPayable": 4650,
+      "status": "paid",
+      "paymentDate": "2026-11-04",
+      "paymentMethod": "UPI (Google Pay)",
+      "transactionId": "UPI/261104882109/IIITB",
+      "receiptUrl": "#"
+    },
+    {
+      "id": "INV-2026-11-002",
+      "studentId": "STU-002",
+      "studentName": "Sneha Tripathy",
+      "rollNo": "B122045",
+      "hostel": "Dhauli (GH-1)",
+      "roomNo": "108",
+      "month": "November",
+      "year": 2026,
+      "planType": "veg",
+      "baseAmount": 3600,
+      "guestTokens": 0,
+      "rebateDeduction": 425,
+      "fine": 0,
+      "netPayable": 3175,
+      "status": "paid",
+      "paymentDate": "2026-11-05",
+      "paymentMethod": "Debit Card (HDFC)",
+      "transactionId": "TXN_HDFC_992147721",
+      "receiptUrl": "#"
+    },
+    {
+      "id": "INV-2026-11-003",
+      "studentId": "STU-003",
+      "studentName": "Rohan Kumar Jena",
+      "rollNo": "B123012",
+      "hostel": "Mahanadi (BH-2)",
+      "roomNo": "305",
+      "month": "November",
+      "year": 2026,
+      "planType": "non-veg",
+      "baseAmount": 4500,
+      "guestTokens": 75,
+      "rebateDeduction": 340,
+      "fine": 0,
+      "netPayable": 4235,
+      "status": "pending",
+      "paymentDate": null,
+      "paymentMethod": null,
+      "transactionId": null,
+      "receiptUrl": null
+    },
+    {
+      "id": "INV-2026-11-004",
+      "studentId": "STU-004",
+      "studentName": "Ananya Patnaik",
+      "rollNo": "B123078",
+      "hostel": "Rushikulya (GH-2)",
+      "roomNo": "219",
+      "month": "November",
+      "year": 2026,
+      "planType": "veg",
+      "baseAmount": 3600,
+      "guestTokens": 0,
+      "rebateDeduction": 0,
+      "fine": 0,
+      "netPayable": 3600,
+      "status": "pending",
+      "paymentDate": null,
+      "paymentMethod": null,
+      "transactionId": null,
+      "receiptUrl": null
+    },
+    {
+      "id": "INV-2026-11-005",
+      "studentId": "STU-005",
+      "studentName": "Debashis Sahoo",
+      "rollNo": "B121019",
+      "hostel": "Subarnarekha (BH-3)",
+      "roomNo": "412",
+      "month": "November",
+      "year": 2026,
+      "planType": "non-veg",
+      "baseAmount": 4500,
+      "guestTokens": 0,
+      "rebateDeduction": 0,
+      "fine": 100,
+      "netPayable": 4600,
+      "status": "overdue",
+      "paymentDate": null,
+      "paymentMethod": null,
+      "transactionId": null,
+      "receiptUrl": null
+    },
+    {
+      "id": "INV-2026-11-006",
+      "studentId": "STU-006",
+      "studentName": "Pooja Panigrahi",
+      "rollNo": "B124033",
+      "hostel": "Dhauli (GH-1)",
+      "roomNo": "302",
+      "month": "November",
+      "year": 2026,
+      "planType": "non-veg",
+      "baseAmount": 4500,
+      "guestTokens": 30,
+      "rebateDeduction": 0,
+      "fine": 0,
+      "netPayable": 4530,
+      "status": "paid",
+      "paymentDate": "2026-11-02",
+      "paymentMethod": "UPI (PhonePe)",
+      "transactionId": "UPI/261102716182/IIITB",
+      "receiptUrl": "#"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "FB-001",
+      "studentId": "STU-001",
+      "studentName": "Aarav Mohapatra",
+      "rollNo": "B122001",
+      "mealType": "lunch",
+      "mealDate": "2026-11-09",
+      "category": "Food Quality",
+      "ratings": {
+        "overall": 5,
+        "taste": 5,
+        "hygiene": 4,
+        "quantity": 5
+      },
+      "comment": "The Dalma and Paneer Butter Masala served today were exceptional! Truly authentic taste. Please keep this standard.",
+      "status": "resolved",
+      "adminResponse": "Thank you Aarav! Our head chef has taken note of your encouraging feedback.",
+      "createdAt": "2026-11-09T14:15:00Z"
+    },
+    {
+      "id": "FB-002",
+      "studentId": "STU-002",
+      "studentName": "Sneha Tripathy",
+      "rollNo": "B122045",
+      "mealType": "breakfast",
+      "mealDate": "2026-11-10",
+      "category": "Hygiene",
+      "ratings": {
+        "overall": 3,
+        "taste": 4,
+        "hygiene": 2,
+        "quantity": 4
+      },
+      "comment": "The water cooler on the second mess counter was dispensing lukewarm water and the glasses tray needed cleaning.",
+      "status": "investigating",
+      "adminResponse": "Mess Supervisor has been dispatched to service the UV water filter and restock sterilized glasses.",
+      "createdAt": "2026-11-10T09:10:00Z"
+    },
+    {
+      "id": "FB-003",
+      "studentId": "STU-003",
+      "studentName": "Rohan Kumar Jena",
+      "rollNo": "B123012",
+      "mealType": "dinner",
+      "mealDate": "2026-11-08",
+      "category": "Timings & Service",
+      "ratings": {
+        "overall": 4,
+        "taste": 4,
+        "hygiene": 4,
+        "quantity": 3
+      },
+      "comment": "Chapati counter had a long queue around 8:45 PM. Can we deploy one extra tawa during peak hours?",
+      "status": "resolved",
+      "adminResponse": "An additional secondary hot-roti station has been added starting this Monday.",
+      "createdAt": "2026-11-08T21:30:00Z"
+    }
+  ],
+  "notices": [
+    {
+      "id": "NOT-001",
+      "title": "Special Grand Feast for Diwali & Campus Fest",
+      "content": "All students are cordially invited to the Grand Special Dinner this Friday evening (07:30 PM - 10:30 PM). Special menu includes Hyderabadi Biryani, Butter Paneer, Chhena Gaja & Ice Cream. Non-mess hostellers can purchase guest tokens before 4 PM.",
+      "date": "2026-11-09",
+      "priority": "urgent",
+      "author": "Mess Committee Convener"
+    },
+    {
+      "id": "NOT-002",
+      "title": "Rebate Submission Deadline for Mid-Semester Break",
+      "content": "Students proceeding on vacation for the upcoming semester break must submit their rebate applications online at least 48 hours in advance. No retrospective rebates will be entertained without Chief Warden approval.",
+      "date": "2026-11-07",
+      "priority": "normal",
+      "author": "Hostel & Mess Warden Office"
+    },
+    {
+      "id": "NOT-003",
+      "title": "Mandatory Digital QR / Roll No. Check-in",
+      "content": "All registered members are requested to present their Digital Mess Card QR code or quote their Roll Number at the biometric entry gate to streamline dining hall queues.",
+      "date": "2026-11-03",
+      "priority": "info",
+      "author": "Chief Security & Mess Supervisor"
+    }
+  ],
+  "guestTokens": [
+    {
+      "id": "TKN-8821",
+      "buyerName": "Prof. S. N. Mishra (Guest)",
+      "mealType": "lunch",
+      "date": "2026-11-10",
+      "price": 75,
+      "status": "used",
+      "issuedAt": "2026-11-10T11:30:00Z"
+    },
+    {
+      "id": "TKN-8822",
+      "buyerName": "Aarav Mohapatra (Friend Token)",
+      "mealType": "dinner",
+      "date": "2026-11-10",
+      "price": 75,
+      "status": "valid",
+      "issuedAt": "2026-11-10T16:00:00Z"
+    }
+  ],
+  "attendance": [
+    {
+      "rollNo": "B122001",
+      "name": "Aarav Mohapatra",
+      "hostel": "Brahmaputra (BH-1)",
+      "mealType": "dinner",
+      "time": "11:07 pm",
+      "planType": "non-veg"
+    },
+    {
+      "rollNo": "B122001",
+      "name": "Aarav Mohapatra",
+      "mealType": "breakfast",
+      "time": "08:15 AM"
+    },
+    {
+      "rollNo": "B122045",
+      "name": "Sneha Tripathy",
+      "mealType": "breakfast",
+      "time": "08:35 AM"
+    },
+    {
+      "rollNo": "B123078",
+      "name": "Ananya Patnaik",
+      "mealType": "breakfast",
+      "time": "09:02 AM"
+    },
+    {
+      "rollNo": "B122001",
+      "name": "Aarav Mohapatra",
+      "mealType": "lunch",
+      "time": "01:10 PM"
+    },
+    {
+      "rollNo": "B122045",
+      "name": "Sneha Tripathy",
+      "mealType": "lunch",
+      "time": "01:25 PM"
+    },
+    {
+      "rollNo": "B121019",
+      "name": "Debashis Sahoo",
+      "mealType": "lunch",
+      "time": "01:40 PM"
+    }
+  ],
+  "activeUserRole": "student",
+  "currentStudentId": "STU-001"
+}
